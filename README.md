@@ -1,6 +1,8 @@
 # odin-landing-page
 A landing page project - from The Odin Project: Foundations
 
+![web page screenshot](/images/TOP-landing-page-screenshot.png)
+
 Images used in this project where sourced from www.pexels.com
 
 Photo of cat from Kirsten Bühne
