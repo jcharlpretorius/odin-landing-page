@@ -1,0 +1,251 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* My styles start here:  */
+
+
+body {
+  font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+header, footer {
+  background-color: #1F2937;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  /* flex: 1 1 auto; */
+  /* padding: 16px 0; */
+  margin: 20px 150px 100px 150px;
+}
+
+.header-links {
+  display: flex;
+  gap: 10px;
+  color: #f9faf88f;
+}
+
+.header-top .logo{
+  color: #f9faf8;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  margin: 0 400px 60px 400px;
+  /* justify-content: center; */
+  /* height: 400px;
+  padding: 0 100px;
+  width: 200px; */
+}
+
+/* .hero {
+  margin-bottom: 50px;
+} */
+
+.hero-text, .subtext {
+  margin-bottom: 16px;
+}
+
+img {
+  width: auto;
+  height: 300px;
+}
+
+.hero-text{
+  /* refactor styles duplicates */
+  color: #F9FAF8;
+  font-size: 48px;
+  font-weight: 800;
+}
+
+a, .subtext {
+  font-size: 18px;
+  color: #E5E7Eb
+}
+
+.sign-up {
+  background-color: #3882F6;
+  color: white;
+  font-size: 18px;
+  padding: 6px 30px;
+  border: none;
+  border-radius: 5px;
+}
+
+.main {
+  background-color: white;
+  text-align: center;
+  padding: 30px;
+  margin-bottom: 50px;
+}
+
+.info-header {
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 40px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.info {
+  max-width: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-box {
+  width: 150px;
+  height: 150px;
+  border: 4px solid #3882F6;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.info-text {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.774);
+}
+
+.lower-section {
+  background-color: #E5E7EB;padding: 60px 200px;
+  border: 1px solid magenta;
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid green;
+}
+
+.quote {
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 36px;
+  color: #1F2937;
+  /* padding: 60px 500px; */
+}
+
+.quote-author {
+  align-self: flex-end;
+  color: black;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.call-to-action {
+  display: flex;
+  justify-content: center;
+  border: 1px solid red;
+}
+
+.action-container {
+  display: flex;
+  border: 1px solid orange;
+  border-radius: 8px;
+  background-color: #3882F6;
+  padding: 30px 80px;
+  gap: 100px;
+  margin: 50px 0;
+}
+
+.action-text {
+  /* border: 1px solid red; */
+  color: white;
+}
+
+.action-text h2 {
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+.action-container .sign-up {
+  border: 2px solid white;
+  /* align-self: center; */
+  /* margin: auto; */
+  /* maybe take out of action tetx div */
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+footer p {
+  padding: 26px;
+  color: white;
+}
+
